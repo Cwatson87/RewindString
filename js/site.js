@@ -23,7 +23,7 @@ function reverseString(userString){
     let revString = "";
 
     //In a decremented for loop the startValue must be higher than the endValue
-    for(let i = startValue; i <= endValue; i--){
+    for(let i = startValue; i >= endValue; i--){
         revString += userString[i];
     };
 
